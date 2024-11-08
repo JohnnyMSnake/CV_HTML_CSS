@@ -41,6 +41,7 @@ span{
 #Contacto{
     display: grid;
     grid-template-columns: 1fr; 
+    
 }
 #Foto{
     width: 300px;
