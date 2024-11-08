@@ -21,3 +21,6 @@ El CV sigue la siguiente estructura de archivos y carpetas:
 Diseño Responsivo: El CV está optimizado para verse en distintos tamaños de pantalla.
 *Secciones Organizables: Incluye secciones típicas como experiencia laboral, educación, habilidades, y contacto.
 *Uso de Ramas: Cada sección principal del CV fue trabajada en una rama separada para facilitar el desarrollo y la integración.
+
+Enlace a GitHub Pages:
+https://johnnymsnake.github.io/CV_HTML_CSS/
