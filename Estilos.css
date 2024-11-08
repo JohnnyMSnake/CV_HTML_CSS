@@ -97,3 +97,59 @@ aside li{
     
     
 }
+}
+@media (max-width: 768px){
+    aside{
+        grid-column: 1/4;
+        grid-row: 3/4;
+    }
+    header{
+        grid-column: 1/4;
+        grid-row: 1/2;
+    }
+    section{
+        grid-column: 1/4;
+        grid-row: 2/3;
+    }
+    header h1{
+        font-size: 40px;
+    }
+    #Foto{
+        width: 200px;
+    }
+}
+@media (max-width: 480px){
+    header h1{
+        font-size: 40px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h2{
+        font-size: 20px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    h3{
+        font-size: 15px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    li{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    p{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    a{
+        font-size: 10px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: white;
+    }
+    #Contacto img{
+        width: 30px;
+    }
+    #Idiomas img{
+        width: 200px;
+    }
+
+}
+
