@@ -4,9 +4,11 @@ body{
 }
 header{
     grid-column: 2/4;
+    padding-left: 10px;
+    padding-right: 10px;
 }
 header h1{
-    font-size: 50px;
+    font-size: 70px;
     font-family: Arial, Helvetica, sans-serif;
 }
 h2{
@@ -38,8 +40,11 @@ span{
 }
 #Contacto{
     display: grid;
-    grid-template-columns: 1fr 10fr;
-    
+    grid-template-columns: 1fr 10fr; 
+}
+#Foto{
+    width: 300px;
+    border-radius: 1000px;
 }
 section{
     display: flex;
@@ -51,6 +56,14 @@ section{
 }
 section div{
     border-top: 3px solid black;
+    transition: 0.5s;
+}
+section div:hover{
+    background-color: rgba(230, 231, 231, 0.815);
+}
+#Div_Foto{
+    border-top: 0px;
+    text-align: center;
 }
 aside{
     display: flex;
@@ -61,10 +74,14 @@ aside{
     background-color: rgb(1, 1, 77);
     padding-left: 30px;
     padding-right: 30px;
+    padding-top: 40px;
 }
 #Contacto img{
     width: 50px;
     grid-column: 1/2;
+}
+#Estudios a{
+    color: black;
 }
 aside div{
     border-top: 3px solid white;
