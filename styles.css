@@ -40,7 +40,8 @@ span{
 }
 #Contacto{
     display: grid;
-    grid-template-columns: 1fr 10fr; 
+    grid-template-columns: 1fr; 
+    
 }
 #Foto{
     width: 300px;
@@ -97,6 +98,7 @@ aside li{
     
     
 }
+
 @media (max-width: 768px){
     aside{
         grid-column: 1/4;
